@@ -6,5 +6,12 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses! */
 
 function createPhoneNumber(numbers){
-  
+	let theDigits = [];
+	theDigits.push(...numbers)
+	if (theDigits.length >= 9){
+		console.log((`(${theDigits[0]}${theDigits[1]}${theDigits[2]}) ${theDigits[3]}${theDigits[4]}${theDigits[5]}-${theDigits[6]}${theDigits[7]}${theDigits[8]}${theDigits[9]}`))
+  }
+ 
+	
 }
+
